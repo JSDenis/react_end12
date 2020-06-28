@@ -1,0 +1,19 @@
+.list{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    li{
+        border: 1px solid red;
+        padding: 20px 40px;
+        cursor: pointer;
+        a{
+            color: green;
+            text-decoration: none;
+        }
+        &:hover a{
+            color: goldenrod;
+            font-size: 20px;
+        }
+    }
+}
+
